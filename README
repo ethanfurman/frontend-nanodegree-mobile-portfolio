@@ -1,0 +1,25 @@
+How to Load
+===========
+
+Once you have installed the files on your computer, open your favorit web
+browser, navigate to the folder where you installed the files, and open
+`index.html`.
+
+
+Optimizations
+=============
+
+index.html
+----------
+- remove the Open Sans font
+- embed the `print` and `style` style sheets
+- remove Google Analytics
+- resize images
+
+views (aka Pizzaria)
+--------------------
+- improved readability by using four space indentations instead of two space ;)
+- move the pizzasDiv acquisition outside the for-loop
+- save initial values of randomPizzaContainer's size and
+  randomPizzas' offset width so they don't cause forced layout
+- put the sliding background pizzas into a requestAnimationFrame
