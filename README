@@ -18,8 +18,16 @@ index.html
 
 views (aka Pizzaria)
 --------------------
-- improved readability by using four space indentations instead of two space ;)
+- improved readability by using four space indentations instead of two
+  space ;)
+- move the movingPizzas1 acquisition outside the for-loop, and use
+  getElementById
 - move the pizzasDiv acquisition outside the for-loop
 - save initial values of randomPizzaContainer's size and
   randomPizzas' offset width so they don't cause forced layout
+- save values of document.body.scrollTop and items' length to save
+  lookups during for-loop
 - put the sliding background pizzas into a requestAnimationFrame
+- calculate the number of background pizzas needed
+
+- add transform to css mover class
